@@ -1,0 +1,187 @@
+header {
+    background-color: #469bde;
+    height: 600px;
+}
+
+@font-face {
+    font-family: Bebas Neue; /* Имя шрифта */
+    src: url(fonts/bebas.ttf); /* Путь к файлу со шрифтом */
+}
+
+.container {
+    width: 58em;
+    margin: 0 auto;
+}
+
+.name {
+    color: #FFF;
+    font-size: 6em;
+    font-family: Bebas Neue;
+    font-weight: bold;
+    display: block;
+}
+
+.welcome {
+    color: #FFF;
+    font-size: 3em;
+    font-family: Bebas Neue;
+    font-weight: lighter;
+}
+
+.hello {
+    margin-top: 3em;
+}
+
+.exam {
+    display: inline-flex;
+}
+
+.left_exams {
+    padding-right: 5em;
+}
+
+.exams {
+    padding-top: 5em;
+    height: 450px;
+}
+
+.examimg {
+    width: 12em;
+}
+
+#ruslang {
+    color: #212121;
+    font-size: 5em;
+    font-family: Bebas Neue;
+    font-weight: bold;
+    padding-top: 0;
+    margin-bottom: 0em;
+    padding-bottom: 0.5em;
+    display: block;
+}
+
+.whybetter {
+    height: 700px;
+    background-color: #424242;
+}
+
+.word {
+    color: #FFF;
+    font-size: 6em;
+    font-family: Bebas Neue;
+    font-weight: bold;
+    display: block
+}
+
+.contrast {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.company {
+    color: #FFF;
+    font-size: 3em;
+    font-family: Bebas Neue;
+    font-weight: normal;
+    display: block;
+}
+
+.leftcompany {
+    padding-right: 4em;
+}
+
+.rightcompany {
+    padding-left: 4em;
+}
+
+.success {
+    width: 2em;
+    height: 2em;
+}
+
+.error {
+    width: 2em;
+    height: 2em;
+}
+
+.student {
+    width: 15em;
+    height: 10em;
+    display: block;
+}
+
+.advanteges {
+    display: flex;
+    align-items: center;
+}
+
+.advantege {
+    padding-left: 1em;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.advantege span {
+    color: #FFF;
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 2em;
+    font-family: Bebas Neue;
+    font-weight: lighter;
+    display: block;
+}
+
+.programms {
+    height: 800px;
+    background-color: #469bde;
+}
+
+.course {
+    display: inline-flex;
+    flex-direction: column
+}
+
+.join {
+    background: #4eb540;
+    color: #fff;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 2px;
+    width: 10em;
+    padding: 20px 0;
+    margin-top: 3em;
+    text-align: center;
+    cursor: pointer;
+    border: 0;
+}
+
+.join:hover {
+    background-color: #999;
+}
+
+#sinitsa {
+    margin-top: 4.7em;
+}
+
+#zhuravl {
+    background-color: gray;
+    cursor: default;
+}
+
+#wordOnWhite {
+    color: #5181b8 !important;
+}
+
+.vktext {
+    font-size: 1.5em;
+}
+
+#vkbutton {
+    background-color: #5181b8;
+    margin-bottom: 5em;
+}
+
+#vkbutton:hover {
+    background-color: #999;
+}

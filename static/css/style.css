@@ -30,6 +30,7 @@ body {
 .welcome {
     color: #FFF;
     font-size: 3em;
+    display: block;
     font-family: Bebas Neue;
     font-weight: lighter;
 }

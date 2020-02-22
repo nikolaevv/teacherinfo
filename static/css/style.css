@@ -1,15 +1,21 @@
 header {
     background-color: #469bde;
     height: 600px;
+    width: 100%;
+}
+
+body {
+    width: 100%;
 }
 
 @font-face {
-    font-family: Bebas Neue; /* Имя шрифта */
-    src: url(fonts/bebas.ttf); /* Путь к файлу со шрифтом */
+    font-family: Bebas Neue;
+    src: url(fonts/bebas.ttf);
 }
 
 .container {
     width: 58em;
+    text-align: center;
     margin: 0 auto;
 }
 
@@ -43,10 +49,16 @@ header {
 .exams {
     padding-top: 5em;
     height: 450px;
+    
+}
+
+.examsimg {
+    display: flex;
 }
 
 .examimg {
     width: 12em;
+    height: 7em;
 }
 
 #ruslang {
@@ -61,8 +73,11 @@ header {
 }
 
 .whybetter {
-    height: 700px;
+    height: 100%;
+    text-align: center;
+    padding-top: 4em;
     background-color: #424242;
+    padding-bottom: 5%;
 }
 
 .word {
@@ -76,6 +91,8 @@ header {
 .contrast {
     display: inline-flex;
     flex-direction: column;
+    padding-bottom: 5em;
+    padding: 2em;
 }
 
 .company {
@@ -84,14 +101,6 @@ header {
     font-family: Bebas Neue;
     font-weight: normal;
     display: block;
-}
-
-.leftcompany {
-    padding-right: 4em;
-}
-
-.rightcompany {
-    padding-left: 4em;
 }
 
 .success {
@@ -116,9 +125,9 @@ header {
 }
 
 .advantege {
-    padding-left: 1em;
     padding-top: 0;
     margin-top: 0;
+    padding-left: 1em;
 }
 
 .advantege span {
@@ -127,18 +136,20 @@ header {
     margin-top: 0;
     font-size: 2em;
     font-family: Bebas Neue;
-    font-weight: lighter;
+    font-weight: 100 !important;
     display: block;
 }
 
 .programms {
-    height: 800px;
+    height: 100%;
     background-color: #469bde;
 }
 
 .course {
     display: inline-flex;
-    flex-direction: column
+    padding-bottom: 2.5em;
+    flex-direction: column;
+    padding: 3em;
 }
 
 .join {
@@ -150,7 +161,7 @@ header {
     border-radius: 2px;
     width: 10em;
     padding: 20px 0;
-    margin-top: 3em;
+    margin-top: 1.5em;
     text-align: center;
     cursor: pointer;
     border: 0;
@@ -161,7 +172,7 @@ header {
 }
 
 #sinitsa {
-    margin-top: 4.7em;
+    
 }
 
 #zhuravl {
@@ -184,4 +195,12 @@ header {
 
 #vkbutton:hover {
     background-color: #999;
+}
+
+.screen {
+    width: 80%;
+}
+
+.cards {
+    margin-top: 1em;
 }
